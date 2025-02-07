@@ -49,16 +49,34 @@ const prefectures = {
 }
 //天気コードとアイコン
 const weather_icons = {
-    0:'☀️',//晴れ
-    1:'🌤️',//晴れ時々曇り
-    2:'⛅',//曇り
-    3:'☁️',//曇り
-    45:'🌫️',//霧
-    48:'🌫️',//霧
-    51:'🌧️',//小雨
-    61:'🌧️',//雨
-    71:'❄️',//雪
-    95:'⛈️',//雷雨
+    0:'☀️',//clear skye
+    1:'☀️',//mainly clear
+    2:'⛅',//partly cloudy
+    3:'☁️',//overcast
+    45:'🌫️',//fog
+    48:'🌫️',//depositing rime fog
+    51:'🌧️',//drizzle light
+    53:'🌧️',//drizzle moderate
+    55:'🌧️',//drizzle dense
+    56:'🌧️',//freezing dsrizzle light
+    57:'🌧️',//freezing dsrizzle dense
+    61:'🌧️',//rain slight
+    63:'🌧️',//rain moderate
+    65:'🌧️',//rain heavy
+    66:'🌧️',//freezing rain light
+    67:'🌧️',//freezing rain heavy
+    71:'❄️',//snow fall slight
+    73:'❄️',//snow fall moderate
+    75:'❄️',//snow fall heavy
+    77:'❄️',//snow grains
+    80:'🌧️',//rain showers slight
+    81:'🌧️',//rain showers moderate
+    82:'🌧️',//rain showers violent
+    85:'🌧️',//snow showers slight
+    86:'🌧️',//snow showers heavy
+    95:'⛈️',//thunderstorm
+    96:'⛈️',//thunderstorm with slight hall
+    99:'⛈️',//thunderstorm with heavy hall
 }
 //東京の一週間の天気を表示する関数
 const display_weekly_weather = (daily_data) => {
