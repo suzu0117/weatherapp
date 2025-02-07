@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="weather_app">
+        <h1>お天気アプリ</h1>
+        <!--現在地のお天気-->
+        <div class="weather_info_now">
+            <p id="current_temp"></p>
+            <p id="max_temp"></p>
+            <p id="min_temp"></p>
+        </div>
+        <!--現在地のお天気用のボタン-->
+        <button id="get_location">現在地の天気を取得</button>
+        <!--東京都の一週間の天気-->
+        <div class="wweekly_weather">
+            <h2 id="text">東京の一週間の天気</h2>
+            <button id="switch_location_sapporo">札幌</button>
+            <button id="switch_location_sendai">仙台</button>
+            <button id="switch_location_tokyo">東京</button>
+            <button id="switch_location_nagoya">名古屋</button>
+            <button id="switch_location_osaka">大阪</button>
+            <button id="switch_location_hukuoka">福岡</button>
+            <button id="switch_location_naha">那覇</button>
+            <div id="weekly_weather" class="weekly_list">
+                <!--ここに一週間の天気予報が入る-->
+            </div>
+        </div>
+    </div>
+</body>
+<script src="./weather.js"></script>
+</html>
