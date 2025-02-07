@@ -58,13 +58,13 @@ const weather_icons = {
     51:'🌧️',//drizzle light
     53:'🌧️',//drizzle moderate
     55:'🌧️',//drizzle dense
-    56:'🌧️',//freezing dsrizzle light
-    57:'🌧️',//freezing dsrizzle dense
+    56:'❄️🌧️',//freezing dsrizzle light
+    57:'❄️🌧️',//freezing dsrizzle dense
     61:'🌧️',//rain slight
     63:'🌧️',//rain moderate
     65:'🌧️',//rain heavy
-    66:'🌧️',//freezing rain light
-    67:'🌧️',//freezing rain heavy
+    66:'❄️🌧️',//freezing rain light
+    67:'❄️🌧️',//freezing rain heavy
     71:'❄️',//snow fall slight
     73:'❄️',//snow fall moderate
     75:'❄️',//snow fall heavy
@@ -72,8 +72,8 @@ const weather_icons = {
     80:'🌧️',//rain showers slight
     81:'🌧️',//rain showers moderate
     82:'🌧️',//rain showers violent
-    85:'🌧️',//snow showers slight
-    86:'🌧️',//snow showers heavy
+    85:'❄️',//snow showers slight
+    86:'❄️',//snow showers heavy
     95:'⛈️',//thunderstorm
     96:'⛈️',//thunderstorm with slight hall
     99:'⛈️',//thunderstorm with heavy hall
