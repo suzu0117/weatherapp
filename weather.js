@@ -157,7 +157,7 @@ document.addEventListener('DOMContentLoaded',() => {
     });
     const switch_location_button_osaka = document.getElementById('switch_location_osaka');
     switch_location_button_osaka.addEventListener('click',() => {
-        document.getElementById('text').innerText = '大阪府の一週間の天気';
+        document.getElementById('text').innerText = '大阪の一週間の天気';
         const {latitude,longitude} = prefectures['大阪'];
         get_weekly_weather(latitude,longitude);
     });
